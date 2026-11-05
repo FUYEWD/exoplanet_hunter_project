@@ -102,4 +102,4 @@ with gr.Blocks(theme=gr.themes.Soft()) as demo:
     btn_save.click(fn=save_candidate_to_local, inputs=[], outputs=[save_status])
 
 if __name__ == '__main__':
-    demo.launch(server_name='0.0.0.0', server_port=8080)
+    demo.launch()
